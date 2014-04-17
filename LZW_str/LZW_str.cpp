@@ -4,6 +4,7 @@
 // Compress a string to a list of output symbols.
 // The result will be written to the output iterator
 // starting at "result"; the final iterator is returned.
+
 template <typename Iterator>
 Iterator compress(const std::string &uncompressed, Iterator result) {
 	// Build the dictionary.
